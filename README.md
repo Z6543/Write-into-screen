@@ -1,12 +1,12 @@
-Write-into-screen
-=================
+# Write-into-screen
 
 This program can be used to simulate keyboard events, and transfer files through the clipboard.
 
 The program reads the config.json file, and applies the commands from it.
 
+# Usage
 The valid JSON commands are:
-
+```
 text_type
 normal text to be typed, with RETURN at the end
     {        "text_type": "winword"    },
@@ -69,8 +69,7 @@ simulate the simultan press of three keys, e.g. alt + (i + m)
             }
         ]
     },
-
-
+    
 key_combo3_2
 simulate the simultan press of three keys, e.g. (ctrl + shift) + v
-
+```
