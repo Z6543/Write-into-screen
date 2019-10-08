@@ -2,7 +2,7 @@
 
 This program can be used to simulate keyboard events, and transfer files through the clipboard.
 
-The program reads the config.json file, and applies the commands from it.
+The program reads the config.json file and applies the commands from it.
 
 # Usage
 The valid JSON commands are:
